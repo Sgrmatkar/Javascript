@@ -42,3 +42,4 @@ function addThreeValues(value1, value2, value3) {
 
 addThreeValues(10.23, 600, 40);
 addThreeValues("Hello", "Good", "Morning");
+``
