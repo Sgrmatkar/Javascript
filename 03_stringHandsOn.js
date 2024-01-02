@@ -21,3 +21,27 @@ var startsWithHey = trimString.startsWith("Hey");
 console.log(`10. String starts with "Hey": ${startsWithHey}`);
 }
 stringHandsOn();
+var a = "101";
+
+console.log(typeof a);
+var b = +a ;
+console.log(b);
+console.log(typeof b);
+
+var d = +"sagar";
+console.log(d);
+console.log(typeof d);
+var f = "200a";
+var z = Number(f);
+
+console.log(typeof z);
+console.log(z);
+
+
+var a;
+console.log(typeof a);
+
+
+var p = Boolean(0);
+console.log(p);
+console.log(typeof p);
