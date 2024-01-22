@@ -16,3 +16,10 @@ const arrayAddIndex = arrayNumbers.map( (currentValue,index) => {
 })
 console.log("After adding index value into its corresponding element:",arrayAddIndex);
 console.log(`-----------------------------------END-----------------------------------`);
+
+
+
+const fruits = ["apple", "mango"];
+
+let [ fruit1, fruit2, fruit3 = "jack", fruit4 = "straw"] = fruits
+console.log(fruit1,fruit2,fruit3,fruit4);
