@@ -31,13 +31,13 @@ console.log(`Employees from IT or HR department`);
   const ItorHrDeptEmployee = arrayEmployees.filter((element) => {
     return(element.emp_dept == 'IT' ||  element.emp_dept == 'HR') ;
   }); 
-    ItorHrDeptEmployee.forEach((employee) => {
-      console.log(employee);
+    ItorHrDeptEmployee.forEach((element) => {
+      console.log(element);
      }); 
 
      console.log(`-----------------------------------STEP-3-----------------------------------`);
 
-     console.log(`Employees from IT or HR department`);
+     console.log(`Employees whose ID is greater than 50`);
      const IdEmployee = arrayEmployees.filter((element) => {
        return(element.emp_id > 50) ;
      }); 
@@ -57,9 +57,9 @@ const startAVMEmployee = arrayEmployees.filter((element) => {
 });
 
  console.log(`-----------------------------------STEP-5-----------------------------------`);
- const totalSalary = arrayEmployees.reduce((total, employee) =>  total + employee.emp_salary,0);
-const avgSalary = totalSalary/arrayEmployees.length;
-console.log(`Averagesalary of all the employee is: ${avgSalary}`);
+ const totalSalary = arrayEmployees.reduce((total, employee) =>  total + employee.emp_salary,0)/arrayEmployees.length;
+
+console.log(`Averagesalary of all the employee is: ${totalSalary}`);
 
 console.log(`-----------------------------------STEP-6-----------------------------------`);
 const ItDeptEmployee = arrayEmployees.filter((element) => {
